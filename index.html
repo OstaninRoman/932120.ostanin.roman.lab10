@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8">
+    <title> Now you see me </title>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div id="curtain" onclick="upCurtain()"></div>
+    <img src="2.jpg" id="magican">
+    <img src="Hat.png" id="hat">
+    <img src="lamp-top.png" id="lamp-top" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="lamp-leg.png" id="lamp-leg" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+    <img src="lamp-switcher.png" id="lamp-switcher">
+    <div id="light" class="lightoff"></div>
+    <img src="Rabbit.png" id="rabbit" onclick="showBird()">
+    <img src="Bird.png" id="bird" onclick="showRabbit()">
+</body>
